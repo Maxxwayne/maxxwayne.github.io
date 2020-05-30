@@ -245,6 +245,8 @@ knitr::kable(all,col.names=c('Batting Stats','Points','Pitching Stats','Points',
 
 ***
 
+<br>
+
 ##  **History** {#anchor8}
 
 ### *All time Standings*
@@ -303,6 +305,7 @@ knitr::kable(twenty_nineteen,col.names=c('Place','Owner','Win Percentage','Recor
 
 ***
 
+<br>
 
 
 [Top of Page](#anchor5)
