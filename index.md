@@ -3,19 +3,19 @@ date: "03-09-2020"
 title: Phi Psi-IL Delta Fantasy Sports Leagues
 ---
 
-## **NFL Auction (14 teams)-Ryan Tannehill Fan Club**
+## :football: **NFL Auction (14 teams)-Ryan Tannehill Fan Club**
 ### &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [ESPN League Homepage](https://fantasy.espn.com/football/league?leagueId=21575912)
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *Reigning Champ: Trevor Corsello*
-## **NFL Auction (24 teams)-JaMarcus Russell Fan Club**
-## **NFL Playoffs**
+## :football: **NFL Auction (24 teams)-JaMarcus Russell Fan Club**
+## :football: **NFL Playoffs**
 ### &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [MFL League Homepage](https://www63.myfantasyleague.com/2019/home/38637#0)
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *Reigning Champ: John Postlethwait*
-## **[MLB-Bryan Reynolds Fan Club](./main-page.html)**
+## :baseball: **[MLB-Bryan Reynolds Fan Club](./main-page.html)**
 ### &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [ESPN League Homepage](https://fantasy.espn.com/baseball/league?leagueId=62615350)
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *Reigning Champ: TJ Pellikan*
-## **NBA-Joe Harris Fan Club**
+## :basketball: **NBA-Joe Harris Fan Club**
 ### &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [ESPN League Homepage](https://fantasy.espn.com/basketball/league?leagueId=59873460)
-## **XFL-Matt McGloin Fan Club**
+## :rugby_football: **XFL-Matt McGloin Fan Club**
 
 <br>
 
