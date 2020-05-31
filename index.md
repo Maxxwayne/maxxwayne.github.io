@@ -1,6 +1,6 @@
 ---
 date: "03-09-2020"
-title: Phi Psi-IL Delta Fantasy Sports Leagues
+title: Phi Kappa Psi-Illinois Delta
 ---
 
 ## **NFL Auction (14 teams)-Ryan Tannehill Fan Club**
