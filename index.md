@@ -9,7 +9,7 @@ title: Phi Psi-IL Delta Fantasy Sports Leagues
 # NFL Playoffs
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ### [MFL League Homepage](https://www63.myfantasyleague.com/2019/home/38637#0)
 # MLB-Bryan Reynolds Fan Club
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ### [https://fantasy.espn.com/baseball/league?leagueId=62615350)
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ### [ESPN League Homepage](https://fantasy.espn.com/baseball/league?leagueId=62615350)
 # NBA-Joe Harris Fan Club
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ### [ESPN League Homepage](https://fantasy.espn.com/basketball/league?leagueId=59873460)
 # XFL-Matt McGloin Fan Club
