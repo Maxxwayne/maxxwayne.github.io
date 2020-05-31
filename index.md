@@ -3,7 +3,6 @@ date: "03-09-2020"
 title: Phi Psi-IL Delta Fantasy Sports Leagues
 ---
 
-:football:
 ## **NFL Auction (14 teams)-Ryan Tannehill Fan Club**
 ### &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [ESPN League Homepage](https://fantasy.espn.com/football/league?leagueId=21575912)
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *Reigning Champ: Trevor Corsello*
