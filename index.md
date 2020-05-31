@@ -20,7 +20,7 @@ title: Phi Kappa Psi-Illinois Delta
 ---
 <br>
 
-## *All Sport Standings*
+## *All League Standings*
 
 |Owner   |Seasons Completed |Leagues  |Record   |Win Percentage   |Playoff Appearances   |Playoff Record   |Playoff Win Percentage   |Championship Appearances   |Championships |Average Finish |Best Finish   |Longest Win Streak   |Longest Lose Streak   |Point Differential Per Matchup   |Awards   |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
