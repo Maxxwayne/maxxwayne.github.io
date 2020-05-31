@@ -5,7 +5,7 @@ title: Phi Psi-IL Delta Fantasy Sports Leagues
 
 ## **NFL Auction (14 teams)-Ryan Tannehill Fan Club**
 ### &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [ESPN League Homepage](https://fantasy.espn.com/football/league?leagueId=21575912)
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *Reigning Champ: TJ Pellikan*
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *Reigning Champ: Trevor Corsello*
 ## **NFL Auction (24 teams)-JaMarcus Russell Fan Club**
 ## **NFL Playoffs**
 ### &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [MFL League Homepage](https://www63.myfantasyleague.com/2019/home/38637#0)
@@ -19,16 +19,16 @@ title: Phi Psi-IL Delta Fantasy Sports Leagues
 
 <br>
 
-## **All Sport Standings**
+## *All Sport Standings*
 
 |Owner   |Seasons |Leagues  |Record   |Win Percentage   |Playoff Appearances   |Playoff Record   |Playoff Win Percentage   |Championship Appearances   |Championships |Average Finish |Best Finish   |Longest Win Streak   |Longest Lose Streak   |Point Differential   |Awards   |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |Zach Callero   |1 |1   |0-1   |0   |1   |0-1   |0   |0   |0   |3   |3   |0   |1   |-28.86   |0   |
-|Alec Campbell   | 1  | 1  |   |   |   |   |   |   |   |   |   |   |   |   | |
-|Sam Chiganos  |1   |4   |   |   |   |   |   |   |   |   |   |   |   |   | |
-| Trevor Corsello  | 2  |4   |   |   |   |   |   |   |   |   |   |   |   |   | |
-|Grant Culp   |1   | 1  |   |   |   |   |   |   |   |   |   |   |   |   | |
-| Alec Deuter  | 1  |1   |   |   |   |   |   |   |   |   |   |   |   |   | |
+|Alec Campbell   | 1  | 1  | 8-9  |.47   |0   |0-0   |0   |0   |0   |10   |10   |2   |3   | -5.1  |1 |
+|Sam Chiganos  |1   |4   | 0-1  |0   |1   |0-1   |0   |1   |0   |2   |2   |0   |1   |-6.78   |0 |
+| Trevor Corsello  | 2  |4   |8-6   |.57   |2 | 3-1  |1   |1   |2.5   |1   | 7  |   |3   | 2.4  |3 |
+|Grant Culp   |1   | 1  | 8-8-1  | .5  |0   |0-0   |0   |0   |0   |8   | 8  |3   |   | 2  |-12.1 |
+| Alec Deuter  | 1  |1   | 7-9-1  |.44   |0   | 0-0  | 0  | 0  |0   | 12  | 12  |   | 2  |4   |1 |
 | Niko Diamantopoulos  |2   |1   |   |   |   |   |   |   |   |   |   |   |   |   | |
 | Bobby Farnan  |1   |1   |   |   |   |   |   |   |   |   |   |   |   |   | |
 | Alex Garcia   |1   |2   |   |   |   |   |   |   |   |   |   |   |   |   | |
@@ -39,6 +39,7 @@ title: Phi Psi-IL Delta Fantasy Sports Leagues
 | Javen Joerger  | 1  | 1  |   |   |   |   |   |   |   |   |   |   |   |   | |
 |Eric Jung   | 0  | 3  |   |   |   |   |   |   |   |   |   |   |   |   | |
 |Mike Kane   | 0  | 3  |   |   |   |   |   |   |   |   |   |   |   |   | |
+|Lucas Kinsey   | 0  | 1  |   |   |   |   |   |   |   |   |   |   |   |   | |
 |Phil Klafta   | 1  | 1  |   |   |   |   |   |   |   |   |   |   |   |   | |
 |Austin Koukol  | 0  | 1  |   |   |   |   |   |   |   |   |   |   |   |   | |
 |Jake Leahy  | 1  | 1  |   |   |   |   |   |   |   |   |   |   |   |   | |
