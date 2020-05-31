@@ -17,6 +17,7 @@ title: Phi Kappa Psi-Illinois Delta
  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [ESPN League Homepage](https://fantasy.espn.com/basketball/league?leagueId=59873460)
 ## **XFL-Matt McGloin Fan Club**
 
+---
 <br>
 
 ## *All Sport Standings*
@@ -56,7 +57,9 @@ title: Phi Kappa Psi-Illinois Delta
 |Maxx Wayne   | 3  | 6   | 17-13  | .57  |  1 | 0-1  | 0  | 0  | 0  | 7.5  | 7  |7   |5   | 32.6  | 9|
 |Trent Wheeler   | 1  | 1  | 4-9  | .31  | 0  | 0-0  | 0  | 0  | 0  | 11  |11   |4   | 9  | -18.5  |0 |
 
+<br>
 Note: 1 season of NFL Playoff League counts towards playoff and finish statistics only.
+<br>
 <br>
 
 ---
