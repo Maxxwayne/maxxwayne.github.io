@@ -6,8 +6,8 @@ title: Phi Kappa Psi-Illinois Delta
 ##  **NFL Auction (14 teams)-Ryan Tannehill Fan Club**
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [ESPN League Homepage](https://fantasy.espn.com/football/league?leagueId=21575912)
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *Reigning Champ: Trevor Corsello*
-## **NFL Auction (20 teams)-JaMarcus Russell Fan Club**
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [ESPN League Homepage](https://fantasy.espn.com/football/league?leagueId=84878687)
+## **NFL Auction (24 teams)-JaMarcus Russell Fan Club**
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [Sleeper League Homepage](https://sleeper.app/leagues/573362537053319168)
 ## **NFL Playoffs-Fantasy Football Champions League**
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [MFL League Homepage](https://www63.myfantasyleague.com/2019/home/38637#0)
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *Reigning Champ: John Postlethwait*
