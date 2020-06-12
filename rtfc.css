@@ -4,11 +4,17 @@ h2 {
 h4 {
 	color: #8B008B;
 }
-a {
-	color: #000000;
+a:link {
+	color: #DAA520;
 }
-.links {
-	color: #000000;
+a:visited {
+	color: #DAA520;
+}
+a:hover {
+	color: #DAA520;
+}
+a:active {
+	color: #DAA520;
 }
 	
 	
