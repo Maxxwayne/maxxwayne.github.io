@@ -6,6 +6,8 @@ h4 {
 }
 #buttons {
 	float: left;
+	border-style: solid;
+	background-color: #FFFFFF;
 }
 
 
