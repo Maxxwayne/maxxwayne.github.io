@@ -4,7 +4,7 @@ h2 {
 h4 {
 	color: #8B008B;
 }
-a#buttons {
+a.buttons {
 	float: left;
 	border-style: solid;
 	background-color: #FFFFFF;
