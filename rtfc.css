@@ -9,6 +9,9 @@ p.buttons {
 	border-style: solid;
 	background-color: #FFFFFF
 }
+a.buttons:hover {
+	color: #FFF8DC;
+)
 
 
 
