@@ -30,3 +30,8 @@ a:hover, a:active {
           color: #FFFFFF;
           padding: 0;
 }
+#standings {
+          color: #FFFFFF;
+}
+tr:nth-child(even){background-color: #f2f2f2}
+
