@@ -7,6 +7,7 @@
           padding: 0;
           text-align: center;
           padding: 0;
+          position: sticky;
 }
 a:link, a:visited {
           background-color: #A9A9A9;
@@ -38,6 +39,9 @@ tr:nth-child(even){
 }
 tr:nth-child(odd){
           background-color: #778899;
+}
+th {
+          background-color: #B22222;
 }
 table, th, td {
           border-collapse: collapse;
