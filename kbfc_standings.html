@@ -11,6 +11,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="/kbfc.css">
 <script src="sorttable.js"></script>
+  
 
 <title>KBFC.utf8</title>
 
@@ -58,8 +59,8 @@
     <tr>
       <td>1</td>
       <td>0</td>
-<td>Team Kane</td>
-<td>Mike Kane</td>
+<td>Team Wayne</td>
+<td>Maxx Wayne</td>
 <td>0-0</td>
 <td>15</td>
 <td>59-9</td>
@@ -83,6 +84,30 @@
 </table>
     </center>
   </div>
+  
+  <div id="csv_standings">
+       <script src="d3.min.js?v=3.2.8"></script>
+
+        <script type="text/javascript"charset="utf-8">
+            d3.text("C:\Users\maxxb\Documents\KBFC\2020\standings\kbfc_2020_berty.csv", function(data) {
+                var parsedCSV = d3.csv.parseRows(data);
+
+                var container = d3.select("body")
+                    .append("table")
+
+                    .selectAll("tr")
+                        .data(parsedCSV).enter()
+                        .append("tr")
+
+                    .selectAll("td")
+                        .data(function(d) { return d; }).enter()
+                        .append("td")
+                        .text(function(d) { return d; });
+            });
+          
+          
+          
+          </div>
   
   </body>
 </html>
