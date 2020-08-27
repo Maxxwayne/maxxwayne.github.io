@@ -39,7 +39,7 @@ tr:nth-child(even){
 }
 table, th, td {
           border-collapse: collapse;
-          border: 3px;
+          border: 1px solid black;
           border-color: #FFFFFF;
 }
           
