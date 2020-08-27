@@ -34,7 +34,7 @@ a:hover, a:active {
           color: #FFFFFF;
 }
 tr:nth-child(even){
-          background-color: #2F4F4F;
+          background-color: #696969;
 }
 tr:nth-child(odd){
           background-color: #778899;
