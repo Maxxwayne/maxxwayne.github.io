@@ -58,12 +58,13 @@
 </tr>
 </thead>
       
-       <tbody> 
+   <tbody> 
          
          <?php
-if(($csvfile = fopen("/kbfc_2020_berty.csv", "r")) !==FALSE) {
+if (($csvfile = fopen("/kbfc_2020_berty.csv", "r")) !==FALSE) {
 while ((csvdata = fgetcsv($csvfile, 9, ",")) !== FALSE) {
 $error=' ';
+$colcount = count($csvdata);
 switch($error) {
   default:
       echo '<td>'.$csvdata[0].'</td>;
@@ -79,7 +80,7 @@ switch($error) {
 
 
 }
-echo '<td>';
+echo '</tr>';
 }
 fclose($csvfile);
 }
