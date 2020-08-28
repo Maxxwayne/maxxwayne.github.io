@@ -40,55 +40,107 @@
     
   <div id="standings">
     <center>
-    <table datasrc='#data' class="sortable">
-      
-      <thead style="border:solid;border-color=#FFFAFA;">
-<tr>
-  <strong>
-    <th>Place</th>
-    <th>Last</th>
-<th>Team</th>
-<th>Owner</th>
-<th>Record</th>
-<th>Victory Points</th>
-<th>Adjusted Record</th>
-<th>Points For</th>
-<th>Points Against</th>
-  </strong>
+      <h2 style="font-size:175%">The Berty Bunch</h2>
+    <table class="sortable">
+<thead><tr><th title="Field #1">Place</th>
+<th title="Field #2">Last</th>
+<th title="Field #3">Team</th>
+<th title="Field #4">Owner</th>
+<th title="Field #5">Record</th>
+<th title="Field #6">Victory Points</th>
+<th title="Field #7">Adjusted Record</th>
+<th title="Field #8">Points For</th>
+<th title="Field #9">Points Against</th>
+</tr></thead>
+<tbody><tr>
+<td align="right">1</td>
+<td>0</td>
+<td>Team Wayne</td>
+<td>Maxx Wayne</td>
+<td>0-0</td>
+<td>0</td>
+<td>0-0</td>
+<td>0</td>
+<td>0</td>
 </tr>
-</thead>
-      
-   <tbody> 
-         
-         <?php
-if (($csvfile = fopen("/kbfc_2020_berty.csv", "r")) !==FALSE) {
-while ((csvdata = fgetcsv($csvfile, 9, ",")) !== FALSE) {
-$error=' ';
-$colcount = count($csvdata);
-switch($error) {
-  default:
-      echo '<td>'.$csvdata[0].'</td>';
-      echo '<td>'.$csvdata[1].'</td>';
-      echo '<td>'.$csvdata[2].'</td>';
-      echo '<td>'.$csvdata[3].'</td>';
-      echo '<td>'.$csvdata[4].'</td>';
-      echo '<td>'.$csvdata[5].'</td>';
-      echo '<td>'.$csvdata[6].'</td>';
-      echo '<td>'.$csvdata[7].'</td>';
-      echo '<td>'.$csvdata[8].'</td>';
-
-
-
-}
-echo '</tr>';
-}
-fclose($csvfile);
-}
-
-?>
-      </tbody>
-      
-</table>
+<tr>
+<td align="right">2</td>
+<td>0</td>
+<td>Team Chiganos</td>
+<td>Sam Chiganos</td>
+<td>0-0</td>
+<td>0</td>
+<td>0-0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td align="right">3</td>
+<td>0</td>
+<td>Team Corsello</td>
+<td>Trevor Corsello</td>
+<td>0-0</td>
+<td>0</td>
+<td>0-0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td align="right">4</td>
+<td>0</td>
+<td>Team Kinsey</td>
+<td>Luke Kinsey</td>
+<td>0-0</td>
+<td>0</td>
+<td>0-0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td align="right">5</td>
+<td>0</td>
+<td>Team Hilpuesch</td>
+<td>Julian Hipluesch</td>
+<td>0-0</td>
+<td>0</td>
+<td>0-0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td align="right">6</td>
+<td>0</td>
+<td>Team Siordia</td>
+<td>Rapha Siordia</td>
+<td>0-0</td>
+<td>0</td>
+<td>0-0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td align="right">7</td>
+<td>0</td>
+<td>Team Reese</td>
+<td>Sam Reese</td>
+<td>0-0</td>
+<td>0</td>
+<td>0-0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td align="right">8</td>
+<td>0</td>
+<td>Team Jung</td>
+<td>Eric Jung</td>
+<td>0-0</td>
+<td>0</td>
+<td>0-0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+</tbody></table>
       
       
       
