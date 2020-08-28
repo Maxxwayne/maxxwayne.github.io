@@ -34,6 +34,7 @@
    </strong>
    
  </div>
+
   
   <div id="standings">
     <center>
@@ -84,6 +85,57 @@
 </table>
     </center>
   </div>
+  
+    
+  <div id="standings2">
+    
+    <table datasrc='#data' class="sortable">
+      
+      <thead>
+<tr style="border:solid;border-color=#FFFAFA;">
+  <strong>
+    <th>Place</th>
+    <th>Last</th>
+<th>Team</th>
+<th>Owner</th>
+<th>Record</th>
+<th>Victory Points</th>
+<th>Adjusted Record</th>
+<th>Points For</th>
+<th>Points Against</th>
+  </strong>
+</tr>
+</thead>
+      
+       <tbody> <tr>
+     <td><span datafld='Place'> </span></td>
+     <td><span datafld='Last'></span></td>
+     <td><span datafld='Team'> </span></td>
+     <td><span datafld='Owner'> </span></td>
+              <td><span datafld='Record'> </span></td>
+              <td><span datafld='Victory Points'> </span></td>
+              <td><span datafld='Adjusted Record'> </span></td>
+              <td><span datafld='Points For'> </span></td>
+              <td><span datafld='Points Against'> </span></td>
+
+
+
+
+
+  </tbody>
+
+</table>
+
+
+<object ID=data classid="clsid:333C7BC4-460F-11D0-BC04-0080C7055A83">
+  <param nAme="DataURL" value="C:\Users\maxxb\Documents\KBFC\2020\standings\kbfc_2020_berty.csv">
+  <param nAme="UseHeader" value="true">
+</object>
+      
+      
+      
+      
+      </div>
   
   <div id="csv_standings">
        <script src="d3.min.js?v=3.2.8"></script>
