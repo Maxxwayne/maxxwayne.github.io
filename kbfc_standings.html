@@ -59,30 +59,35 @@
 </thead>
       
        <tbody> 
-         <tr>
-     <td><span datafld='Place'> </span></td>
-     <td><span datafld='Last'></span></td>
-     <td><span datafld='Team'> </span></td>
-     <td><span datafld='Owner'> </span></td>
-              <td><span datafld='Record'> </span></td>
-              <td><span datafld='Victory Points'> </span></td>
-              <td><span datafld='Adjusted Record'> </span></td>
-              <td><span datafld='Points For'> </span></td>
-              <td><span datafld='Points Against'> </span></td>
-         </tr>
+         
+         <?php
+if(($csvfile = fopen("/kbfc_2020_berty.csv", "r")) !==FALSE) {
+while ((csvdata = fgetcsv($csvfile, 9, ",")) !== FALSE) {
+$error=' ';
+switch($error) {
+  default:
+      echo '<td>'.$csvdata[0].'</td>;
+      echo '<td>'.$csvdata[1].'</td>;
+      echo '<td>'.$csvdata[2].'</td>;
+      echo '<td>'.$csvdata[3].'</td>;
+      echo '<td>'.$csvdata[4].'</td>;
+      echo '<td>'.$csvdata[5].'</td>;
+      echo '<td>'.$csvdata[6].'</td>;
+      echo '<td>'.$csvdata[7].'</td>;
+      echo '<td>'.$csvdata[8].'</td>;
 
 
 
+}
+echo '<td>';
+}
+fclose($csvfile);
+}
 
-  </tbody>
-
+?>
+      </tbody>
+      
 </table>
-
-
-<object ID=data classid="clsid:333C7BC4-460F-11D0-BC04-0080C7055A83">
-  <param nAme="DataURL" value="/kbfc_2020_berty.csv">
-  <param nAme="UseHeader" value="true">
-</object>
       
       
       
