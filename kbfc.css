@@ -59,8 +59,8 @@ table, th, td {
   width: 250px;
   position: fixed;
   z-index: 1;
-  top: 57px;
-  left: 0;
+  top: 60px;
+  left: 15px;
   background-color: #FFFAFA;
   overflow-x: hidden;
 }
@@ -69,8 +69,8 @@ table, th, td {
   width: 250px;
   position: fixed;
   z-index: 1;
-  top: 57px;
-  right: 5px;
+  top: 60px;
+  right: 15px;
   background-color: #FFFFFF;
   overflow-x: hidden;
 }
