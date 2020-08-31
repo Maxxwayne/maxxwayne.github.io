@@ -61,7 +61,7 @@ table, th, td {
   z-index: 1;
   top: 91px;
   left: 0;
-  background-color: #111;
+  background-color: #FFFAFA;
   overflow-x: hidden;
 }
 .sidenav2 {
@@ -71,7 +71,7 @@ table, th, td {
   z-index: 1;
   top: 91px;
   right: 5px;
-  background-color: #111;
+  background-color: #FFFFFF;
   overflow-x: hidden;
 }
 
