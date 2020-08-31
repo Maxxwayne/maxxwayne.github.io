@@ -56,24 +56,22 @@ table, th, td {
 }
 .sidenav {
   height: 100%;
-  width: 160px;
+  width: 250px;
   position: fixed;
   z-index: 1;
   top: 91px;
   left: 0;
   background-color: #111;
   overflow-x: hidden;
-  padding-top: 20px;
 }
 .sidenav2 {
   height: 100%;
-  width: 160px;
+  width: 250px;
   position: fixed;
   z-index: 1;
   top: 91px;
-  right: 0;
+  right: 5px;
   background-color: #111;
   overflow-x: hidden;
-  padding-top: 20px;
 }
 
