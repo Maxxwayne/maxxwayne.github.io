@@ -8,6 +8,7 @@
           text-align: center;
           padding: 0;
           position: sticky;
+          top: 0;
 }
 a:link, a:visited {
           background-color: #A9A9A9;
