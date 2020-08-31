@@ -60,7 +60,7 @@ table, th, td {
   width: 250px;
   position: fixed;
   z-index: 1;
-  top: 62px;
+  top: 60px;
   left: 12px;
   background-color: #FFFAFA;
   overflow-x: hidden;
@@ -70,7 +70,7 @@ table, th, td {
   width: 250px;
   position: fixed;
   z-index: 1;
-  top: 62px;
+  top: 60px;
   right: 12px;
   background-color: #FFFFFF;
   overflow-x: hidden;
