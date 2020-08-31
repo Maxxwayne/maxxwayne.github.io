@@ -51,15 +51,15 @@ table, th, td {
 }
 #rules {
           color: #FFFFFF;
-          margin-left: 200px;
-          margin-right: 200px;
+          margin-left: 175px;
+          margin-right: 175px;
 }
 .sidenav {
   height: 100%;
   width: 250px;
   position: fixed;
   z-index: 1;
-  top: 91px;
+  top: 71px;
   left: 0;
   background-color: #FFFAFA;
   overflow-x: hidden;
@@ -69,7 +69,7 @@ table, th, td {
   width: 250px;
   position: fixed;
   z-index: 1;
-  top: 91px;
+  top: 71px;
   right: 5px;
   background-color: #FFFFFF;
   overflow-x: hidden;
