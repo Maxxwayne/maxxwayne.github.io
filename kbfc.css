@@ -87,4 +87,12 @@ table, th, td {
     padding:2px 5px;
     background:#ccc;
 }
+.fragment {
+    position: relative;
+}
+#closeButton {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 
