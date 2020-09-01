@@ -38,10 +38,10 @@
       <div class="sidenav">
         <a class="fragment" href="google.com">
 <button id="closeButton">close</button>
-          document.getElementById('closeButton').addEventListener('click', function(e) {
+          <script>document.getElementById('closeButton').addEventListener('click', function(e) {
     e.preventDefault();
     this.parentNode.style.display = 'none';
-}, false);
+            }, false);</script>
     <div>    
       <a>Matchups of the week:</a>
         <br>
@@ -52,10 +52,11 @@
   <div class="sidenav2">
     <a class="fragment" href="google.com">
 <button id="closeButton">close</button>
-      document.getElementById('closeButton').addEventListener('click', function(e) {
+      <script>document.getElementById('closeButton').addEventListener('click', function(e) {
     e.preventDefault();
     this.parentNode.style.display = 'none';
 }, false);
+      </script>
     <div>    
     <a class="twitter-timeline" data-width="1000" data-height="600" href="https://twitter.com/FantasyCommish6/likes?ref_src=twsrc%5Etfw">Sports News Feed</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   </div>
