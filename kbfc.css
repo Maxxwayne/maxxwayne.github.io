@@ -55,6 +55,9 @@ table, th, td {
           margin-left: 350px;
           margin-right: 350px;
 }
+#scoring {
+          color: #FFFFFF;
+}
 .sidenav {
   height: 100%;
   width: 250px;
