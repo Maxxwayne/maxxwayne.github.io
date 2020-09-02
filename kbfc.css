@@ -87,8 +87,6 @@ table, th, td {
 #close {
     float:right;
     display:inline-block;
-    padding:1px 1px;
-    background:#ccc;
 }
 .fragment {
     position: relative;
