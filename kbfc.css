@@ -87,6 +87,7 @@ table, th, td {
 #close {
     float:right;
     display:inline-block;
+    font-size: 14px;
 }
 .fragment {
     position: relative;
