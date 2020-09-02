@@ -90,6 +90,8 @@ table, th, td {
 }
 .fragment {
     position: relative;
+    height: 18px;
+    width: 18px;
 }
 #closeButton {
     position: absolute;
