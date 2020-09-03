@@ -72,7 +72,7 @@ table, th, td {
   overflow-x: hidden;
   border-radius: 25px;
   border-style: hidden;
-  border-color: #FFFFFF
+  border-color: #FFFFFF;
 }
 .sidenav2 {
   height: 100%;
@@ -85,7 +85,7 @@ table, th, td {
   overflow-x: hidden;
   border-radius: 25px;
   border-style: hidden;
-  border-color: #FFFFFF
+  border-color: #FFFFFF;
 }
 #close {
     float:right;
