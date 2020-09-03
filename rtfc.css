@@ -1,19 +1,104 @@
-h2 {
-	color: #008B8B;
+#banner {
+          border: solid;
+          background-color: #A9A9A9;
+          font-size: 20px;
+          text-decoration: none;
+          color: #000000;
+          padding: 0;
+          text-align: center;
+          padding: 0;
+          position: sticky;
+          top: 0;
 }
-h4 {
-	color: #8B008B;
+a:link, a:visited {
+          background-color: #A9A9A9;
+          color: #FFFFFF;
+          padding: 14px 25px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
 }
-p.buttons {
-	float: left;
-	border-style: solid;
-	background-color: #FFFFFF
+a:hover, a:active {
+          background-color: #808080;
 }
-a.buttons:hover {
-	color: #FFF8DC;
-)
-
-
-
-	
-	
+#title {
+          font-family: 'Bebas Neue', cursive;
+          color: #BA55D3;
+          text-align: center;
+          font-size: 44px;
+          padding: 0;
+}
+#info {
+          color: #FFFFFF;
+          padding: 0;
+}
+#standings {
+          color: #FFFFFF;
+}
+tr:nth-child(even){
+          background-color: #696969;
+}
+tr:nth-child(odd){
+          background-color: #778899;
+}
+th {
+          background-color: #B22222;
+}
+table, th, td {
+          border-collapse: collapse;
+          border: 1px solid black;
+          border-color: #FFFFFF;
+          border-radius: 5px;
+}
+#rules {
+          color: #FFFFFF;
+          margin-left: 350px;
+          margin-right: 350px;
+}
+#scoring {
+          color: #FFFFFF;
+}
+#results {
+          color: #FFFFFF;
+}
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 60px;
+  left: 12px;
+  background-color: #FFFAFA;
+  overflow-x: hidden;
+  border-radius: 25px;
+  border-style: hidden;
+  border-color: #FFFFFF
+}
+.sidenav2 {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 60px;
+  right: 12px;
+  background-color: #FFFFFF;
+  overflow-x: hidden;
+  border-radius: 25px;
+  border-style: hidden;
+  border-color: #FFFFFF
+}
+#close {
+    float:right;
+    display:inline-block;
+    font-size: 14px;
+}
+.fragment {
+    position: relative;
+    height: 18px;
+    width: 18px;
+}
+#closeButton {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
