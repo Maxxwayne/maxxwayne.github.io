@@ -35,7 +35,7 @@ a:hover, a:active {
 #standings {
           color: #FFFFFF;
           width: 60%;
-          text-align: center;
+          margin: 0 auto;
 }
 tr:nth-child(even){
           background-color: #696969;
@@ -54,9 +54,8 @@ table, th, td {
 }
 #rules {
           color: #FFFFFF;
-          margin-left: 350px;
-          margin-right: 350px;
-          text-align: center;
+          width: 60%;
+          margin: 0 auto;
 }
 #scoring {
           color: #FFFFFF;
