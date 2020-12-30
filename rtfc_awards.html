@@ -12,6 +12,35 @@
   <link rel="stylesheet" href="/rtfc.css">
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 <script src="sorttable.js"></script>
+      <script>
+function includeHTML() {
+  var z, i, elmnt, file, xhttp;
+  /*loop through a collection of all HTML elements:*/
+  z = document.getElementsByTagName("*");
+  for (i = 0; i < z.length; i++) {
+    elmnt = z[i];
+    /*search for elements with a certain atrribute:*/
+    file = elmnt.getAttribute("w3-include-html");
+    if (file) {
+      /*make an HTTP request using the attribute value as the file name:*/
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+          /*remove the attribute, and call this function once more:*/
+          elmnt.removeAttribute("w3-include-html");
+          includeHTML();
+        }
+      }      
+      xhttp.open("GET", file, true);
+      xhttp.send();
+      /*exit the function:*/
+      return;
+    }
+  }
+};
+</script>
 
 <title>RTFC.utf8</title>
 
@@ -36,73 +65,19 @@
  </div>
   
   
-          <div class="sidenav">
-        
-        <a class="fragment" href="/rtfc_awards_mobile.html">
-          <script>document.getElementById('closeButton').addEventListener('click', function(e) {
-    e.preventDefault();
-    this.parentNode.style.display = 'none';
-            }, false);</script>
-          <span id="close">x</span>
-    </a><div>
-            
-             <strong><center> Matchups of the Week:</strong>
-               <hr>
-             
-               
-                    
-                  
-                   BRFC(Champ): Mike Kane (1) vs TJ Pellikan (2)
-                    <br>
-                    <em> ft: Machado and Darvish vs Bellinger and Woodruff</em>
-                  <hr>
-                  KBFC: Trevor Corsello (1/3) vs Mitchell Wayne (3/8)
-                  <br>
-                  <em> ft: Tannehill and Henry vs Ridley and Juju</em>
-                  <hr>
-            KBFC: Jackson Spencer (1/3) vs Luke Kinsey (6/13)
-                  <br>
-                  <em> ft: Ryan and Elliott vs Sanders and Hopkins</em>
-                  <hr>
-                  RTFC: Max Mitchell (1) vs Rapha Siordia (3)
-                  <br>
-                  <em> ft: Cook and Ridley vs Rodgers and Hopkins</em>
-                  <hr>
-                  <hr>
-               <strong>Important Dates:</strong>
-               <hr>
-           
-               
-               11/2/20-RTFC Trade Deadline
-               <br>
-               11/17/20-KBFC Trade Deadline
-               <br>
-               12/1/20-Start of NBA Season
-              
-               
-                    
-                  
-                </center>
-            
-      </div>
-        
-  </div>
+     <div w3-include-html="/banner_news.html"></div> 
 
-  <div class="sidenav2">
-    <a class="fragment" href="/rtfc_awards_mobile.html">
-      <script>document.getElementById('closeButton').addEventListener('click', function(e) {
-    e.preventDefault();
-    this.parentNode.style.display = 'none';
-}, false);
-      </script>
-      <span id="close">x</span>
-    </a><div>
+<script>
+includeHTML();
+</script>
+   <a>
+   <div class="sidenav2">
+          <span id='close' onclick='this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode); return false;'>x</span>
+
     
 <a class="twitter-timeline" data-width="1000" data-height="590" href="https://twitter.com/FantasyCommish6/likes?ref_src=twsrc%5Etfw">Sports News Feed</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>        </aside>
   
-    </div>
-    
-        </div>
+ </div></a>
    
    
    <div id="awards">
@@ -121,82 +96,82 @@
 <tr>
 <td>Champion</td>
 <td>Trevor Corsello</td>
-<td></td>
+<td>Max Mitchell</td>
 </tr>
 <tr>
 <td>Runner-Up</td>
 <td>John Postlethwait</td>
-<td></td>
+<td>John Postlethwait</td>
 </tr>
 <tr>
 <td>3rd Place</td>
 <td>Cole Nelsen</td>
-<td></td>
+<td>Javen Joerger</td>
 </tr>
 <tr>
 <td>4th Place</td>
 <td>Rapha Siordia</td>
-<td></td>
+<td>Sam Chiganos</td>
 </tr>
 <tr>
 <td>Mr. Irrelevant</td>
 <td>Niko Diamantopoulos</td>
-<td></td>
+<td>Brian Metzger</td>
 </tr>
 <tr>
-<td>Regular Season MVP</td>
-<td>Cole Nelsen(1568.21 points)</td>
-<td></td>
+<td>Regular Season MVP (Most Regular Season Points)</td>
+<td>Cole Nelsen(1568.21)</td>
+<td>Javen Joerger (1478.44)</td>
 </tr>
 <tr>
-<td>Benchwarmer</td>
-<td>Phil Klafta(918.62 points)</td>
-<td></td>
+<td>Benchwarmer (Least Regular Season Points)</td>
+<td>Phil Klafta(918.62)</td>
+<td>TJ Pellikan (1009.98)</td>
 </tr>
 <tr>
-<td>Multiple Sidepots</td>
-<td>Cole Nelsen, John Postlethwait, Maxx Wayne (2)</td>
-<td></td>
+<td>Most Sidepots</td>
+<td>Cole Nelsen, John Postlethwait, and Maxx Wayne (2)</td>
+<td>Javen Joerger (4)</td>
 </tr>
 <tr>
-<td>Biggest Tweak</td>
-<td>Trevor Corsello (24 acquisitions)</td>
-<td></td>
+<td>Biggest Tweak (Most Transactions)</td>
+<td>Trevor Corsello (24)</td>
+<td>Maxx Wayne (23)</td>
 </tr>
 <tr>
-<td>Ghost</td>
-<td>Jake Leahy (3 acquisitions)</td>
-<td></td>
+<td>Ghost (Least Transactions)</td>
+<td>Jake Leahy (3)</td>
+<td>Max Mitchell (4)</td>
 </tr>
 <tr>
-<td>The Luck of the Irish</td>
-<td>Rapha Siordia (1132.86 points allowed)</td>
-<td></td>
+<td>The Luck of the Irish (Least Points Against)</td>
+<td>Rapha Siordia (1132.86)</td>
+<td>John Postlethwait (1116.26)</td>
 </tr>
 <tr >
-<td>The Black Cat</td>
-<td>Jake Leahy (1443.06 points allowed)</td>
-<td></td>
+<td>The Black Cat (Most Points Against)</td>
+<td>Jake Leahy (1443.06)</td>
+<td>Javen Joerger (1362.42)</td>
 </tr>
 <tr >
-<td>The 13 Award</td>
+<td>The 13 Award (Best Adjusted Record to not make Playoffs)</td>
 <td>Maxx Wayne</td>
-<td></td>
+<td>Julian Hilpuesch</td>
 </tr>
 <tr>
 <td>Longest Win Streak</td>
 <td>Trevor Corsello and Maxx Wayne (7)</td>
-<td></td>
+<td>Max Mitchell and Sam Chiganos (5)</td>
 </tr>
 <tr>
 <td>Longest Lose Streak</td>
 <td>Phil Klafta and Trent Wheeler (9)</td>
-<td></td>
+<td>Brian Metzger (6)</td>
 </tr>
 <tr>
 <td>Biggest Fan Award</td>
 <td>Trevor Corsello</td>
-<td></td>
+<td>Trevor Corsello</td>
 </tr>
 </tbody>
 </table>
@@ -217,41 +192,41 @@
 <tr class="odd">
 <td>Gardner Minshew Award</td>
 <td>Deshaun Watson (Rapha Siordia)</td>
-<td></td>
+<td>Josh Allen (Julian Hilpuesch)</td>
 </tr>
 <tr class="even">
 <td>New Orleans Saints Award</td>
 <td>Aarons Jones(2) and Leonard Fournette(9) (Maxx Wayne)</td>
-<td></td>
+<td>Dalvin Cook (2) and David Montgomery (5) (Julian Hilpuesch)</td>
 </tr>
 <tr class="odd">
 <td>Megatron Award</td>
 <td>Kenny Golladay(5) and Julian Edelman(8) (Cole Nelsen)</td>
-<td></td>
+<td>Tyreek Hill(1) and DK Metcalf(5) (Cole Nelsen)</td>
 </tr>
 <tr class="even">
 <td>Zach Miller Award</td>
 <td>Travis Kelce (Cole Nelsen)</td>
-<td></td>
+<td>Travis Kelce (Javen Joerger)</td>
 </tr>
 <tr class="odd">
 <td>Nick Kwiatkowski Award</td>
 <td>Darius Leonard (Maxx Wayne)</td>
-<td></td>
+<td>TJ Watt (Julian Hilpuesch)</td>
 </tr>
 <tr class="even">
-<td>Biggest Draft Steal</td>
-<td>Chris Godwin-$6 (John Postlethwait)</td>
-<td></td>
+<td>Biggest Draft Steal ($1-10)</td>
+<td>Chris Godwin($6) (John Postlethwait)</td>
+<td>Sefon Diggs($10) (Rapha Siordia)</td>
 </tr>
 <tr class="odd">
-<td>Biggest Draft Bust</td>
-<td>Juju Smith-Schuster-$60 (Julian Hilpuesch)</td>
-<td></td>
+<td>Biggest Draft Bust (>$50)</td>
+<td>Juju Smith-Schuster ($60) (Julian Hilpuesch)</td>
+<td>Saquon Barkley($73) (Julian Hilpuesch)</td>
 </tr>
 </tbody>
 </table>
-<p><br> Note: All Player Awards must be drafted and stay on your team for the whole season.</p>
+<a> Note: All Player Awards must be drafted and stay on your team for the whole season.</a>
 
 </center>
 </div>
