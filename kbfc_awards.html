@@ -9,8 +9,37 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/kbfc.css">
+  <link rel="stylesheet" href="/rtfc.css">
 <script src="sorttable.js"></script>
+    <script>
+function includeHTML() {
+  var z, i, elmnt, file, xhttp;
+  /*loop through a collection of all HTML elements:*/
+  z = document.getElementsByTagName("*");
+  for (i = 0; i < z.length; i++) {
+    elmnt = z[i];
+    /*search for elements with a certain atrribute:*/
+    file = elmnt.getAttribute("w3-include-html");
+    if (file) {
+      /*make an HTTP request using the attribute value as the file name:*/
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+          /*remove the attribute, and call this function once more:*/
+          elmnt.removeAttribute("w3-include-html");
+          includeHTML();
+        }
+      }      
+      xhttp.open("GET", file, true);
+      xhttp.send();
+      /*exit the function:*/
+      return;
+    }
+  }
+};
+</script>
 
 <title>KBFC.utf8</title>
 
@@ -33,6 +62,142 @@
    </strong>
    
  </div>
+  
+    <div w3-include-html="/banner_news.html"></div> 
+
+<script>
+includeHTML();
+</script>
+   <a>
+   <div class="sidenav2">
+          <span id='close' onclick='this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode); return false;'>x</span>
+
+    
+<a class="twitter-timeline" data-width="1000" data-height="590" href="https://twitter.com/FantasyCommish6/likes?ref_src=twsrc%5Etfw">Sports News Feed</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>        </aside>
+  
+ </div></a>
+
+<div id="standings">
+  <center>
+    
+    <h2 style="font-size:200%">Owner Awards</h2>
+    <table class="sortable"><tr><th>Award</th><th>2020</th><th>2021</th></tr>
+<tr>
+  <td>Champion</td>
+  <td>John Postlethwait</td>
+  <td></td>
+</tr>
+<tr>
+  <td>Runner-Up</td>
+  <td>Abhi Kapoor</td>
+  <td></td>
+</tr>
+<tr>
+  <td>3rd Place</td>
+  <td>Vince Lobono</td>
+  <td></td>
+</tr>
+<tr>
+  <td>4th Place</td>
+  <td>Jackson Spencer</td>
+  <td></td>
+</tr>
+<tr>
+  <td>Regular Season MVP (Most Regular Season Points)</td>
+  <td>Trevor Corsello (1641)</td>
+  <td></td>
+</tr>
+<tr>
+  <td>Benchwarmer (Least Regular Season Points)</td>
+  <td>Billy Busse (939)</td>
+  <td></td>
+</tr>
+<tr>
+  <td>Most Sidepots</td>
+  <td>Trevor Corsello and Zach Callero (3)</td>
+  <td></td>
+</tr>
+<tr>
+  <td>Gold Digger (Most FAA $ Spent)</td>
+  <td>Bryce Cison, Abhi Kapoor, and Maxx Wayne ($110)</td>
+  <td></td>
+</tr>
+<tr>
+  <td>Ghost (Least Transactions)</td>
+  <td>Billy Busse (0)</td>
+  <td></td>
+</tr>
+<tr>
+  <td>Luckiest Team (Least Points Against)</td>
+  <td>Zach Callero (1161)</td>
+  <td></td>
+</tr>
+<tr>
+  <td>Unluckiest Team (Most Points Against)</td>
+  <td>Vince Lobono (1477)</td>
+  <td></td>
+</tr>
+<tr>
+  <td>The 13 Award (Best Adjusted Record to not make Playoffs)</td>
+  <td>Alex Williams (172-127)</td>
+  <td></td>
+</tr>
+<tr>
+  <td>Longest Win Streak</td>
+  <td>Trevor Corsello (9)</td>
+  <td></td>
+</tr>
+<tr>
+  <td>Longest Lose Streak</td>
+  <td>Sam Reese (6)</td>
+  <td></td>
+</tr>
+</table>
+    
+        <h2 style="font-size:200%">Player Awards</h2>
+   <table class="sortable"><tr><th>Award</th><th>2020</th><th>2021</th></tr>
+<tr>
+  <td>Gardner Minshew Award (Best QB)</td>
+  <td>Josh Allen (481.6)(Merrick Wayne)</td>
+  <td></td>
+</tr>
+<tr>
+  <td>New Orleans Saints Awards (Best 2 RBs)</td>
+  <td>Derrick Henry(2) and James Robinson(7) (Trevor Corsello) </td>
+  <td></td>
+</tr>
+<tr>
+  <td>Megatron Award (Best 2 WRs)</td>
+  <td>Davante Adams (2) and Justin Jefferson (8) (Alex Williams)</td>
+  <td></td>
+</tr>
+     <tr>
+  <td>Zach Miller Award (Best TE)</td>
+  <td>Travis Kelce (Julian Hilpuesch)</td>
+  <td></td>
+</tr>
+     <tr>
+  <td>Nick Kwiatkowski Award (Best IDP)</td>
+  <td>TJ Watt (Eric Jung)</td>
+  <td></td>
+</tr>
+     <tr>
+  <td>Biggest Draft Steal ($1-15)</td>
+  <td>Justin Jefferson ($12)(Alex Williams)</td>
+  <td></td>
+</tr>
+     <tr>
+  <td>Biggest Draft Bust (>$60)</td>
+  <td>Saquon Barkley ($94)(Mitchell Wayne)</td>
+  <td></td>
+</tr>
+    </table>
+    
+    <a>Note: All Player Awards are for players who were drafted and stayed on roster for whole season</a>
+    
+    
+  </center>
+</div>
   
   </body>
 </html>
