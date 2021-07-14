@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 #banner {
           border: solid;
           background-color: #A9A9A9;
@@ -36,6 +37,7 @@ a:hover, a:active {
           color: #FFFFFF;
           width: 56%;
           margin: 0 auto;
+          font-family: 'Ubuntu', sans-serif;
 }
 tr:nth-child(even){
           background-color: #696969;
