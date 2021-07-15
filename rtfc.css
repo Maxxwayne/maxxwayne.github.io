@@ -99,8 +99,8 @@ table, th, td {
     float:right;
     display:inline-block;
     font-size: 14px;
-    background-color: #B22222;
-    background:#B22222;
+    background-color: #FF0000;
+    background:#FF0000;
 }
 .fragment {
     position: relative;
@@ -111,6 +111,6 @@ table, th, td {
     position: absolute;
     top: 0;
     right: 0;
-    background-color: #B22222;
-    background:#B22222;
+    background-color: #FF0000;
+    background:#FF0000;
 }
