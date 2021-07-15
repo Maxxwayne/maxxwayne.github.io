@@ -100,6 +100,7 @@ table, th, td {
     display:inline-block;
     font-size: 14px;
     background-color: #B22222;
+    background:#B22222;
 }
 .fragment {
     position: relative;
@@ -111,4 +112,5 @@ table, th, td {
     top: 0;
     right: 0;
     background-color: #B22222;
+    background:#B22222;
 }
