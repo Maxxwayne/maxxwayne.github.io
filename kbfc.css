@@ -103,14 +103,14 @@ table, th, td {
     position: absolute;
     top: 0;
     right: 0;
-    background-color: #B22222;
+    background-color: #FF0000;
 }
 #close {
     float:right;
     display:inline-block;
     padding:2px 5px;
-    background:#B22222;
+    background:#FF0000;
     font-size: 14px;
-    background-color: #B22222;
+    background-color: #FF0000;
 }
 
