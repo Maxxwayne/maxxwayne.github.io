@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/rtfc.css">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<script src="sorttable.js"></script>
+  <script>
+function includeHTML() {
+  var z, i, elmnt, file, xhttp;
+  /*loop through a collection of all HTML elements:*/
+  z = document.getElementsByTagName("*");
+  for (i = 0; i < z.length; i++) {
+    elmnt = z[i];
+    /*search for elements with a certain atrribute:*/
+    file = elmnt.getAttribute("w3-include-html");
+    if (file) {
+      /*make an HTTP request using the attribute value as the file name:*/
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+          /*remove the attribute, and call this function once more:*/
+          elmnt.removeAttribute("w3-include-html");
+          includeHTML();
+        }
+      }      
+      xhttp.open("GET", file, true);
+      xhttp.send();
+      /*exit the function:*/
+      return;
+    }
+  }
+};
+</script>
+
+<title>BRFC.utf8</title>
+
+</head>
+
+<body style="background-color:#000000">
+
+ <div id="banner"> 
+   <strong>
+   <a href="https://maxxwayne.github.io/" style="text-decoration:none">Fantasy Hub</a>
+    <a href="https://www64.myfantasyleague.com/2020/home/56305#0">League Homepage</a>
+   <a href="/ffcl_rules.html" style="text-decoration:none">Rules</a>
+   <a href="/ffcl_results.html" style="text-decoration:none">Results</a>
+        <a href="/ffcl_pr.html" style="text-decoration:none">Player Rankings</a>
+   <a href="/ffcl_scoring.html" style="text-decoration:none">Scoring</a>
+   <a href="/ffcl_awards.html" style="text-decoration:none">Awards</a>
+   <a href="/ffcl_history.html" style="text-decoration:none">History</a>
+
+     
+   </strong>
+   
+   
+ </div>
+  
+  <div w3-include-html="/banner_news.html"></div> 
+
+<script>
+includeHTML();
+</script>
+   <a>
+   <div class="sidenav2">
+          <span id='close' onclick='this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode); return false;'>x</span>
+
+    
+<a class="twitter-timeline" data-width="1000" data-height="590" href="https://twitter.com/FantasyCommish6/likes?ref_src=twsrc%5Etfw">Sports News Feed</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>        </aside>
+  
+ </div></a>
+
+   
+
+<div id="rules">
+   <h2 style="font-size:300%">Draft</h2>
+<ul>
+<li>8 Round Snake Draft</li>
+<li>Draft order randomized 1 hour before the draft</li>
+</ul>
+  
+       <h2 style="font-size:300%">Rosters</h2>
+  <ul>
+<li>QB, 2 RB, 2 WR, 1 TE, 2 FLEX (RB/WR/TE)</li>
+<li>You start every player you draft</li>
+</ul>
+         <h2 style="font-size:300%"> Scoring</h2>
+ <ul>
+<li>Standard Scoring with .5 ppr</li>
+   <ul>
+     <li>Visit <a href="/ffcl_scoring.html">Scoring</a> tab for more details</li>
+   </ul>
+</ul>
+  
+           <h2 style="font-size:300%">Winner</h2>
+ <ul>
+<li>Determined by who has the most cumulative points after the Super Bowl</li>
+</ul>
+ 
+    
+
+
+
+
+
+
+</div>
+
+<script>
+includeHTML();
+</script>
+
+
+
+
+
+</body>
+</html>
