@@ -47,3 +47,7 @@ li.game{
   li.game-bottom{ 
     border-top:1px solid #aaa;
   }
+  li.none{
+    min-height:1px;
+  }
+    
