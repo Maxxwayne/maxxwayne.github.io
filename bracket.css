@@ -49,7 +49,7 @@ li.game{
   }
   li.none{
     border-right:1px solid #000000;
-    min-height:1px;
+    min-height:40px;
     color:#000000;
   }
     
