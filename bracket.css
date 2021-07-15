@@ -17,6 +17,9 @@ main{
   .round .game-spacer{
     flex-grow:1;
   }
+.round .none{
+  flex-grow:1;
+}
 
 /*
  *  General Styles
