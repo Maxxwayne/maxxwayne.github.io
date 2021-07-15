@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/rtfc.css">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<script src="sorttable.js"></script>
+  <script>
+function includeHTML() {
+  var z, i, elmnt, file, xhttp;
+  /*loop through a collection of all HTML elements:*/
+  z = document.getElementsByTagName("*");
+  for (i = 0; i < z.length; i++) {
+    elmnt = z[i];
+    /*search for elements with a certain atrribute:*/
+    file = elmnt.getAttribute("w3-include-html");
+    if (file) {
+      /*make an HTTP request using the attribute value as the file name:*/
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+          /*remove the attribute, and call this function once more:*/
+          elmnt.removeAttribute("w3-include-html");
+          includeHTML();
+        }
+      }      
+      xhttp.open("GET", file, true);
+      xhttp.send();
+      /*exit the function:*/
+      return;
+    }
+  }
+};
+</script>
+
+<title>BRFC.utf8</title>
+
+</head>
+
+<body style="background-color:#000000">
+
+ <div id="banner"> 
+   <strong>
+   <a href="https://maxxwayne.github.io/" style="text-decoration:none">Fantasy Hub</a>
+    <a href="https://www64.myfantasyleague.com/2020/home/56305#0">League Homepage</a>
+   <a href="/ffcl_rules.html" style="text-decoration:none">Rules</a>
+        <a href="/ffcl_draft.html" style="text-decoration:none">Draft</a>
+   <a href="/ffcl_results.html" style="text-decoration:none">Results</a>
+        <a href="/ffcl_pr.html" style="text-decoration:none">Player Rankings</a>
+   <a href="/ffcl_scoring.html" style="text-decoration:none">Scoring</a>
+        <a href="/ffcl_awards.html" style="text-decoration:none">Awards</a>
+
+
+     
+   </strong>
+   
+   
+ </div>
+  
+  <div w3-include-html="/banner_news.html"></div> 
+
+<script>
+includeHTML();
+</script>
+   <a>
+   <div class="sidenav2">
+          <span id='close' onclick='this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode); return false;'>x</span>
+
+    
+<a class="twitter-timeline" data-width="1000" data-height="590" href="https://twitter.com/FantasyCommish6/likes?ref_src=twsrc%5Etfw">Sports News Feed</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>        </aside>
+  
+ </div></a>
+
+   
+
+<div id="standings">
+   <center>
+    <h2 style="font-size=300%">Awards</h2>
+ <table>
+<thead>
+<tr>
+<th>Award</th>
+<th>2019-2020</th>
+<th>2020-2021</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Champion</td>
+<td>John Postlethwait</td>
+<td>Abhi Kapoor</td>
+</tr>
+<tr>
+<td>Best QB</td>
+<td>Sam Chiganos (Pat Mahomes)</td>
+<td>Max Mitchell (Tom Brady)</td>
+</tr>
+<tr>
+<td>Best RBs</td>
+<td>Zach Callero (Damien Williams(1) and Raheem Moster(2))</td>
+<td>Abhi Kapoor (Leonard Fournette(1) and Cam Akers(2))</td>
+</tr>
+<tr>
+<td>Best WRs</td>
+<td>Trevor Corsello (Davante Adams(1) and Tyreek Hill(3))</td>
+<td>Trevor Corsello (Stefon Diggs(1) and Mike Evans(3))</td>
+</tr>
+<tr>
+<td>Best TE</td>
+<td>Cole Nelsen (Travis Kelce)</td>
+<td>Javen Joerger (Travis Kelce)</td>
+</tr>
+<tr>
+<td>Best Steal</td>
+<td>Deshaun Watson (John Postlethwait)</td>
+<td>Abhi Kapoor (Leonard Fournette)</td>
+</tr>
+<tr>
+<td>Biggest Bust</td>
+<td>Mark Ingram (Cole Nelsen)</td>
+<td>Chris Carson (Max Mitchell)</td>
+</tr>
+<tr>
+<td>Most Games</td>
+<td>John Postlethwait and Zach Callero (16)</td>
+<td>Eric Jung(20)</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+  </center>
+</div>
+
+<script>
+includeHTML();
+</script>
+
+
+
+
+
+</body>
+</html>
