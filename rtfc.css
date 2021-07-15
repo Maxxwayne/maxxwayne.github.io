@@ -99,6 +99,7 @@ table, th, td {
     float:right;
     display:inline-block;
     font-size: 14px;
+    background-color: #B22222;
 }
 .fragment {
     position: relative;
