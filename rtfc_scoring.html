@@ -12,8 +12,39 @@
   <link rel="stylesheet" href="/rtfc.css">
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 <script src="sorttable.js"></script>
+  <script>
+function includeHTML() {
+  var z, i, elmnt, file, xhttp;
+  /*loop through a collection of all HTML elements:*/
+  z = document.getElementsByTagName("*");
+  for (i = 0; i < z.length; i++) {
+    elmnt = z[i];
+    /*search for elements with a certain atrribute:*/
+    file = elmnt.getAttribute("w3-include-html");
+    if (file) {
+      /*make an HTTP request using the attribute value as the file name:*/
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+          /*remove the attribute, and call this function once more:*/
+          elmnt.removeAttribute("w3-include-html");
+          includeHTML();
+        }
+      }      
+      xhttp.open("GET", file, true);
+      xhttp.send();
+      /*exit the function:*/
+      return;
+    }
+  }
+};
+</script>
 
-<title>RTFC.utf8</title>
+<title>BRFC Awards</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/baseball.ico" />
+
 
 </head>
 
@@ -26,89 +57,38 @@
    <a href="/rtfc_rules.html" style="text-decoration:none">Rules</a>
    <a href="/rtfc_standings.html" style="text-decoration:none">Standings</a>
    <a href="/rtfc_results.html" style="text-decoration:none">Results</a>
-   <a href="/rtfc_trends.html" style="text-decoration:none">Trends</a>
    <a href="/rtfc_scoring.html" style="text-decoration:none">Scoring</a>
    <a href="/rtfc_awards.html" style="text-decoration:none">Awards</a>
    <a href="/rtfc_history.html" style="text-decoration:none">History</a>
+
      
    </strong>
    
+   
  </div>
   
-  
-          <div class="sidenav">
-        
-        <a class="fragment" href="/rtfc_scoring_mobile.html">
-          <script>document.getElementById('closeButton').addEventListener('click', function(e) {
-    e.preventDefault();
-    this.parentNode.style.display = 'none';
-            }, false);</script>
-          <span id="close">x</span>
-    </a><div>
-            
-             <strong><center> Matchups of the Week:</strong>
-               <hr>
-             
-               
-                    
-                  
-                   BRFC(Champ): Mike Kane (1) vs TJ Pellikan (2)
-                    <br>
-                    <em> ft: Machado and Darvish vs Bellinger and Woodruff</em>
-                  <hr>
-                  KBFC: Trevor Corsello (1/3) vs Mitchell Wayne (3/8)
-                  <br>
-                  <em> ft: Tannehill and Henry vs Ridley and Juju</em>
-                  <hr>
-            KBFC: Jackson Spencer (1/3) vs Luke Kinsey (6/13)
-                  <br>
-                  <em> ft: Ryan and Elliott vs Sanders and Hopkins</em>
-                  <hr>
-                  RTFC: Max Mitchell (1) vs Rapha Siordia (3)
-                  <br>
-                  <em> ft: Cook and Ridley vs Rodgers and Hopkins</em>
-                  <hr>
-                  <hr>
-               <strong>Important Dates:</strong>
-               <hr>
-           
-               
-               11/2/20-RTFC Trade Deadline
-               <br>
-               11/17/20-KBFC Trade Deadline
-               <br>
-               12/1/20-Start of NBA Season
-              
-               
-                    
-                  
-                </center>
-            
-      </div>
-        
-  </div>
+  <div w3-include-html="/banner_news.html"></div> 
 
-  <div class="sidenav2">
-    <a class="fragment" href="/rtfc_scoring_mobile.html">
-      <script>document.getElementById('closeButton').addEventListener('click', function(e) {
-    e.preventDefault();
-    this.parentNode.style.display = 'none';
-}, false);
-      </script>
-      <span id="close">x</span>
-    </a><div>
+<script>
+includeHTML();
+</script>
+   <a>
+   <div class="sidenav2">
+          <span id='close' onclick='this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode); return false;'>x</span>
+
     
-<a class="twitter-timeline" data-width="1000" data-height="590" href="https://twitter.com/FantasyCommish6/likes?ref_src=twsrc%5Etfw">Sports News Feed:</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>        </aside>
+<a class="twitter-timeline" data-width="1000" data-height="590" href="https://twitter.com/FantasyCommish6/likes?ref_src=twsrc%5Etfw">Sports News Feed</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>        </aside>
   
-    </div>
-    
-        </div>
-        
-        <div id="awards">
-        
-        <center>
-        
-        <table class="sortable">
+ </div></a>
+
+   
+
+<div id="standings">
+<center>
+
+  <h2 style="font-size:200%">Scoring</h2>
+  
+  <table class="sortable">
 <strong><thead><tr><th>Passing Stat</th>
 <th>Points</th>
 <th>Rushing Stat</th>
@@ -265,9 +245,18 @@
 <td ></td>
 </tr>
 </tbody></table>
-      
-    </center>
-          
+  
+  </center>
 </div>
+
+<script>
+includeHTML();
+</script>
+
+
+
+
+
+
 </body>
 </html>
