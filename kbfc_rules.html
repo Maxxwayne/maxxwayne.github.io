@@ -1,17 +1,52 @@
-<html xmlns="http://www.w3.org/1999/xhtml"><head>
-<meta charset="utf-8">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="generator" content="pandoc">
-<meta http-equiv="X-UA-Compatible" content="IE=EDGE">
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/kbfc.css">
+  <link rel="stylesheet" href="/rtfc.css">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 <script src="sorttable.js"></script>
+  <script>
+function includeHTML() {
+  var z, i, elmnt, file, xhttp;
+  /*loop through a collection of all HTML elements:*/
+  z = document.getElementsByTagName("*");
+  for (i = 0; i < z.length; i++) {
+    elmnt = z[i];
+    /*search for elements with a certain atrribute:*/
+    file = elmnt.getAttribute("w3-include-html");
+    if (file) {
+      /*make an HTTP request using the attribute value as the file name:*/
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+          /*remove the attribute, and call this function once more:*/
+          elmnt.removeAttribute("w3-include-html");
+          includeHTML();
+        }
+      }      
+      xhttp.open("GET", file, true);
+      xhttp.send();
+      /*exit the function:*/
+      return;
+    }
+  }
+};
+</script>
 
-<title>KBFC.utf8</title>
-  
+<title>KBFC Rules</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/baseball.ico" />
 
-<script charset="utf-8" src="https://platform.twitter.com/js/moment~timeline~tweet.2e5232162202896d50461b242819754e.js"></script><script charset="utf-8" src="https://platform.twitter.com/js/timeline.610564c46865d0bb1eccdd42c0dc6ea7.js"></script></head>
+
+</head>
 
 <body style="background-color:#000000">
 
@@ -22,91 +57,34 @@
    <a href="/kbfc_rules.html" style="text-decoration:none">Rules</a>
    <a href="/kbfc_standings.html" style="text-decoration:none">Standings</a>
    <a href="/kbfc_results.html" style="text-decoration:none">Results</a>
-<a href="/kbfc_draft.html" style="text-decoration:none">Draft</a>
-     <a href="/kbfc_scoring.html" style="text-decoration:none">Scoring</a>
+   <a href="/kbfc_scoring.html" style="text-decoration:none">Scoring</a>
    <a href="/kbfc_awards.html" style="text-decoration:none">Awards</a>
    <a href="/kbfc_history.html" style="text-decoration:none">History</a>
      
    </strong>
    
+   
  </div>
   
-      <div class="sidenav">
-        
-        <a class="fragment" href="/kbfc_rules_mobile.html">
-          <script>document.getElementById('closeButton').addEventListener('click', function(e) {
-    e.preventDefault();
-    this.parentNode.style.display = 'none';
-            }, false);</script>
-          <span id="close">x</span>
-    </a><div>
-        
-       <strong><center> Matchups of the Week:</strong>
-               <hr>
-             
-               
-                    
-                    
-                  
-                   BRFC(Champ): Mike Kane (1) vs TJ Pellikan (2)
-                    <br>
-                    <em> ft: Machado and Darvish vs Bellinger and Woodruff</em>
-                  <hr>
-                  KBFC: Trevor Corsello (1/3) vs Mitchell Wayne (3/8)
-                  <br>
-                  <em> ft: Tannehill and Henry vs Ridley and Juju</em>
-                  <hr>
-            KBFC: Jackson Spencer (1/3) vs Luke Kinsey (6/13)
-                  <br>
-                  <em> ft: Ryan and Elliott vs Sanders and Hopkins</em>
-                  <hr>
-                  RTFC: Max Mitchell (1) vs Rapha Siordia (3)
-                  <br>
-                  <em> ft: Cook and Ridley vs Rodgers and Hopkins</em>
-                  <hr>
-                  <hr>
-               <strong>Important Dates:</strong>
-               <hr>
-           
-               
-               11/2/20-RTFC Trade Deadline
-               <br>
-               11/17/20-KBFC Trade Deadline
-               <br>
-               12/1/20-Start of NBA Season
-              
-               
-                    
-                  
-                </center>
-     
-        </div>
-        
-  </div>
+  <div w3-include-html="/banner_news.html"></div> 
 
-  <div class="sidenav2">
-    <a class="fragment" href="/kbfc_rules_mobile.html">
-      <script>document.getElementById('closeButton').addEventListener('click', function(e) {
-    e.preventDefault();
-    this.parentNode.style.display = 'none';
-}, false);
-      </script>
-      <span id="close">x</span>
-    </a><div>
+<script>
+includeHTML();
+</script>
+   <a>
+   <div class="sidenav2">
+          <span id='close' onclick='this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode); return false;'>x</span>
+
     
-<a class="twitter-timeline" data-width="1000" data-height="590" href="https://twitter.com/FantasyCommish6/likes?ref_src=twsrc%5Etfw">Sports News Feed:</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>        </aside>
+<a class="twitter-timeline" data-width="1000" data-height="590" href="https://twitter.com/FantasyCommish6/likes?ref_src=twsrc%5Etfw">Sports News Feed</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>        </aside>
   
-    </div>
-    
-        </div>
-  
+ </div></a>
 
+   
 
-  
-  <div id="rules">
-
-      
-    <h2 style="font-size:300%">Draft</h2>
+<div id="rules">
+<center>
+ <h2 style="font-size:300%">Draft</h2>
     <ul>
       <li>Auction Draft-$200 Budget</li>
       <li>The draft will be held on the myfantasyleague.com platform</li>
@@ -208,12 +186,18 @@
       <li>Side pot only active during regular season</li>
     </ul>
     
-    
-  </div>
   
- 
-  
-  
+  </center>
+</div>
+
+<script>
+includeHTML();
+</script>
 
 
-<iframe scrolling="no" frameborder="0" allowtransparency="true" src="https://platform.twitter.com/widgets/widget_iframe.2d7d9a6d04538bf11c7b23641e75738c.html?origin=https%3A%2F%2Fmaxxwayne.github.io" title="Twitter settings iframe" style="display: none;"></iframe><iframe id="rufous-sandbox" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none;" title="Twitter analytics iframe"></iframe></body></html>
+
+
+
+
+</body>
+</html>
