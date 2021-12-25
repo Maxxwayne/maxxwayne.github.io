@@ -13,8 +13,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 <script src="sorttable.js"></script>
   
- <link rel="preload" href="/nba_code.R">
-       
+      <r:require modules="jquery-ui, blueprint"/>
+      <r:require module="single-module"/>
+  
   <script>
 function includeHTML() {
   var z, i, elmnt, file, xhttp;
@@ -91,6 +92,9 @@ includeHTML();
 
   <h2 style="font-size:200%">Rosters</h2>
   
+  <r:script>
+  window.alert('Page');
+</r:script>
   
   </center>
 </div>
