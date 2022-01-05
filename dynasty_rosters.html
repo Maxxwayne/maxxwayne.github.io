@@ -12,6 +12,8 @@
   <link rel="stylesheet" href="/tudl.css">
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 <script src="sorttable.js"></script>
+  <script src="dragable.js"></script>
+
   
       <r:require modules="jquery-ui, blueprint"/>
       <r:require module="single-module"/>
@@ -92,24 +94,32 @@ includeHTML();
 
   <h2 style="font-size:200%">Rosters</h2>
   
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<table>
-  <tr>
-    <th></th>
-    <th>Table Header</th>
-  </tr>
-  <tr>
-    <td class="grab">&#9776;</td>
-    <td>Table Cell 1</td>
-  </tr>
-  <tr>
-    <td class="grab">&#9776;</td>
-    <td>Table Cell 2</td>
-  </tr>
-  <tr>
-    <td class="grab">&#9776;</td>
-    <td>Table Cell 3</td>
-  </tr>
+<table class="table-dragable">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="grabable">
+      <td>1</td>
+      <td>First Row</td>
+      <td>Lorem ipsum</td>
+      <td>Dolor</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Second Row</td>
+      <td><input /></td>
+      <td><a href="#">Link</a></td>
+      <td class="grabable">&varr;</td>
+    </tr>
+  </tbody>
 </table>
   
   </center>
