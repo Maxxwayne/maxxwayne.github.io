@@ -114,15 +114,14 @@ table, th, td {
     background-color: #FF0000;
     background:#FF0000;
 }
-.grab {
-  cursor: grab;
+.table-dragable > tbody .grabable { cursor: grab; user-select: none }
+.table-dragable > tbody > tr.grabbed {
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
 }
-
-.grabbed {
-  box-shadow: 0 0 13px #000;
+.table-dragable > tbody > tr.grabbed:active {
+  user-input: none;
 }
-
-.grabCursor,
-.grabCursor * {
+.table-dragable > tbody > tr.grabbed:active * {
+  user-input: none;
   cursor: grabbing !important;
 }
